@@ -1,0 +1,26 @@
+# 1. 忽略 VS Code 配置文件
+.vscode/
+*:Zone.Identifier
+
+# 2. 忽略 CMake 构建目录
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# 3. 忽略所有编译出来的可执行文件 (Linux 下通常无后缀)
+app
+main
+server
+client
+fork_test
+thread_test
+debug_demo
+*.out
+*.exe
+*.o
+
+# 4. 忽略 Mac/Windows 系统垃圾
+.DS_Store
+Thumbs.db
