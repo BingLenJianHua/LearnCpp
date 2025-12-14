@@ -1,0 +1,3 @@
+/home/w/learnCpp/cmake_study/build/CMakeFiles/app.dir
+/home/w/learnCpp/cmake_study/build/CMakeFiles/edit_cache.dir
+/home/w/learnCpp/cmake_study/build/CMakeFiles/rebuild_cache.dir
