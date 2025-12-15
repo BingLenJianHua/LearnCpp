@@ -12,7 +12,7 @@ int main() {
         std::cerr << "创建 socket 失败" << std::endl;
         return -1;
     }
-
+    std::cout << "Server started..." << std::endl;
     // 2. 绑定地址和端口到 socket 上
     sockaddr_in server_addr;
     std::memset(&server_addr, 0, sizeof(server_addr));
